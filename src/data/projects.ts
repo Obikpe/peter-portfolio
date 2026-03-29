@@ -1,0 +1,64 @@
+export type Project = {
+  slug: string
+  title: string
+  category: string
+  tools: string[]
+  image?: string;
+  summary: string
+  problem: string
+  approach: string
+  impact: string
+  github?: string
+  video?: string
+  status: "published" | "draft"
+}
+
+export const projects: Project[] = [
+  {
+    slug: "internet-usage-data-integrity-audit",
+    title: "Global Internet Usage Data Integrity Audit",
+    category: "Data Engineering",
+    tools: ["Python", "Pandas", "ETL"],
+    summary:
+      "Built a structured ETL pipeline to clean and validate 20,000+ global internet usage records.",
+    problem:
+      "Dataset contained 18% null values, inconsistent formatting, and duplicate entries.",
+    approach:
+      "Applied median imputation, removed low-variance features, encoded categorical fields for ML readiness.",
+    impact:
+      "Reduced dataset error rate to <1% and produced production-ready dataset for modeling.",
+    github:
+      "https://github.com/Obikpe/Global-Internet-Usage-Data-Integrity-Audit-Python-Excel-",
+    status: "published"
+  },
+
+  {
+    slug: "migration-trends-analysis",
+    title: "Socio-Economic Factors in Global Migration",
+    category: "Exploratory Analysis",
+    tools: ["Python", "Correlation Matrix", "EDA"],
+    summary:
+      "Analyzed multi-decade migration data to uncover statistical drivers.",
+    problem:
+      "Needed to determine whether unemployment, political stability, or environmental factors drove migration trends.",
+    approach:
+      "Built correlation matrix, regional subsets, hypothesis testing visualizations.",
+    impact:
+      "Identified environmental variables as strongest recent correlation driver.",
+    status: "published"
+  },
+
+  /*
+  {
+    slug: "future-ml-project",
+    title: "Predictive Analytics Model",
+    category: "Machine Learning",
+    tools: ["Python", "XGBoost"],
+    summary: "",
+    problem: "",
+    approach: "",
+    impact: "",
+    status: "draft"
+  },
+  */
+]
