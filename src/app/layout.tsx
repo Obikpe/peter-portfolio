@@ -1,5 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
+import { Analytics } from '@vercel/analytics/next'
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import CodeBackground from "@/components/CodeBackground"
@@ -53,6 +54,7 @@ export default function RootLayout({
         <footer className="relative z-20 border-t border-gray-900/50 bg-[#030303]/80 backdrop-blur-md">
           <Footer />
         </footer>
+        <Analytics />
       </body>
     </html>
   )
