@@ -37,6 +37,7 @@ export const projects: Project[] = [
     title: "Socio-Economic Factors in Global Migration",
     category: "Exploratory Analysis",
     tools: ["Python", "Correlation Matrix", "EDA"],
+    
     summary:
       "Analyzed multi-decade migration data to uncover statistical drivers.",
     problem:
@@ -47,7 +48,22 @@ export const projects: Project[] = [
       "Identified environmental variables as strongest recent correlation driver.",
     status: "published"
   },
-
+{
+    slug: "retail-erp-automation-system",
+    title: "Automated ERP & Business Intelligence System",
+    category: "Data Engineering & Analytics",
+    tools: ["VBA", "Excel Macro", "Power Pivot", "Relational Logic"],
+    image: "/images/projects/ERP sales system",
+    summary:
+      "Developed a full-scale retail management system that automates sales workflows and visualizes business performance.",
+    problem:
+      "A high-volume electronics retailer needed to eliminate manual data entry errors and centralize fragmented multi-item sales records.",
+    approach:
+      "Engineered a VBA-powered interface with sheet-protection toggles, relational database mapping, and an interactive executive dashboard.",
+    impact:
+      "Achieved 100% data integrity for multi-product transactions and provided real-time visibility into revenue trends and inventory performance.",
+    status: "published"
+},
   /*
   {
     slug: "future-ml-project",
