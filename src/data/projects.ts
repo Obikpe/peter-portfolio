@@ -31,6 +31,28 @@ export const projects: Project[] = [
       "Achieved 100% data integrity for multi-product transactions and provided real-time visibility into revenue trends and inventory performance.",
     status: "published"
 },
+{
+    slug: "qsr-sales-strategy-profit-optimization",
+    title: "QSR Sales Strategy and Profit Optimization",
+    category: "Business Intelligence",
+    tools: ["Power BI", "DAX", "Data Modeling"],
+    image: "/images/projects/Sales Performance Review.png", // Ensure this filename matches exactly
+    github: "https://github.com/Obikpe/QSR-Sales-Strategy-and-Profit-Optimization--Chicken-Republic/tree/main/Chicken%20Republic", // Update with the specific repo if different
+    
+    summary:
+      "Developed a comprehensive Power BI dashboard to evaluate profitability and sales performance across multiple product categories and distribution channels.",
+    
+    problem:
+      "The business needed to identify which product lines and payment methods were driving the highest profit margins to optimize daily operations and marketing spend.",
+    
+    approach:
+      "Aggregated transactional data to create average monthly and daily profit profiles. Implemented donut charts for distribution analysis and bar charts to rank top-selling products and profit by category.",
+    
+    impact:
+      "Identified that 'Cash' and 'Direct Sales' account for over 50% of profit, while specific products (Product30) significantly outperform others, allowing for targeted inventory management.",
+    
+    status: "published"
+},
   {
     slug: "internet-usage-data-integrity-audit",
     title: "Global Internet Usage Data Integrity Audit",
@@ -50,22 +72,7 @@ export const projects: Project[] = [
     status: "published"
   },
 
-  {
-    slug: "migration-trends-analysis",
-    title: "Socio-Economic Factors in Global Migration",
-    category: "Exploratory Analysis",
-    tools: ["Python", "Correlation Matrix", "EDA"],
-    
-    summary:
-      "Analyzed multi-decade migration data to uncover statistical drivers.",
-    problem:
-      "Needed to determine whether unemployment, political stability, or environmental factors drove migration trends.",
-    approach:
-      "Built correlation matrix, regional subsets, hypothesis testing visualizations.",
-    impact:
-      "Identified environmental variables as strongest recent correlation driver.",
-    status: "published"
-  },
+  
 
   /*
   {
