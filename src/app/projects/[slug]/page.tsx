@@ -9,7 +9,7 @@ interface Project {
   title: string;
   tools: string[];
   image?: string;   // Optional: in case some projects don't have images
-  github?; string;
+  github?: string;
   summary: string;
   problem: string;
   approach: string;
