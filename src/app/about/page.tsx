@@ -10,7 +10,7 @@ export default function AboutPage() {
 <div className="md:col-span-4 space-y-8">
  <div className="relative aspect-square rounded-2xl overflow-hidden border border-gray-800 shadow-xl">
   <Image 
-    src="/images/projects/Passport photograph.JPG"
+    src="/images/projects/passport-photograph.JPG"
     alt="Peter Obikpe" 
     fill
     className="object-cover"
