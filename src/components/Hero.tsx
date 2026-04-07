@@ -42,7 +42,7 @@ export default function Hero() {
           
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-900 shadow-2xl">
             <img 
-              src="/me.jpg" 
+              src="/images/projects/Passport photograph.jpg" 
               alt="Peter Obikpe" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />

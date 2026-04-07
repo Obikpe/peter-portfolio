@@ -9,6 +9,7 @@ interface Project {
   title: string;
   tools: string[];
   image?: string;   // Optional: in case some projects don't have images
+  github?; string;
   summary: string;
   problem: string;
   approach: string;
@@ -92,6 +93,17 @@ export default async function ProjectDetailPage({ params }: Props) {
             </p>
           </section>
         </div>
+        {project.github && (
+  <a 
+    href={project.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-2 px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors mt-8"
+  >
+    {/* You can use a Github Icon here if you have Lucide-react installed */}
+    <span>View Code on GitHub</span>
+  </a>
+)}
       </article>
     </SectionWrapper>
   );

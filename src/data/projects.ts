@@ -15,10 +15,28 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "retail-erp-automation-system",
+    title: "Automated ERP & Business Intelligence System",
+    category: "Data Engineering & Analytics",
+    tools: ["VBA", "Excel Macro", "Power Pivot", "Relational Logic"],
+    image: "/images/projects/Nduka Sales Form.png",
+    github: "https://github.com/Obikpe/Nduka-Gadgets-Co.---Automated-Retail-ERP-System",
+    summary:
+      "Developed a full-scale retail management system that automates sales workflows and visualizes business performance.",
+    problem:
+      "A high-volume electronics retailer needed to eliminate manual data entry errors and centralize fragmented multi-item sales records.",
+    approach:
+      "Engineered a VBA-powered interface with sheet-protection toggles, relational database mapping, and an interactive executive dashboard.",
+    impact:
+      "Achieved 100% data integrity for multi-product transactions and provided real-time visibility into revenue trends and inventory performance.",
+    status: "published"
+},
+  {
     slug: "internet-usage-data-integrity-audit",
     title: "Global Internet Usage Data Integrity Audit",
     category: "Data Engineering",
     tools: ["Python", "Pandas", "ETL"],
+    image: "/images/projects/Internet Usage Cleaning py.png",
     summary:
       "Built a structured ETL pipeline to clean and validate 20,000+ global internet usage records.",
     problem:
@@ -48,22 +66,7 @@ export const projects: Project[] = [
       "Identified environmental variables as strongest recent correlation driver.",
     status: "published"
   },
-{
-    slug: "retail-erp-automation-system",
-    title: "Automated ERP & Business Intelligence System",
-    category: "Data Engineering & Analytics",
-    tools: ["VBA", "Excel Macro", "Power Pivot", "Relational Logic"],
-    image: "/images/projects/Nduka Sales Form.png",
-    summary:
-      "Developed a full-scale retail management system that automates sales workflows and visualizes business performance.",
-    problem:
-      "A high-volume electronics retailer needed to eliminate manual data entry errors and centralize fragmented multi-item sales records.",
-    approach:
-      "Engineered a VBA-powered interface with sheet-protection toggles, relational database mapping, and an interactive executive dashboard.",
-    impact:
-      "Achieved 100% data integrity for multi-product transactions and provided real-time visibility into revenue trends and inventory performance.",
-    status: "published"
-},
+
   /*
   {
     slug: "future-ml-project",

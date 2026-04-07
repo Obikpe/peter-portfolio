@@ -2,7 +2,7 @@ import { projects } from "@/data/projects"
 import ProjectCard from "./ProjectCard"
 
 export default function FeaturedProjects() {
-  const featured = projects.slice(0, 2)
+  const featured = projects.slice(0, 3)
 
   return (
     // Removed section, py-24, and h2 title
