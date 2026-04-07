@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: "Automated ERP & Business Intelligence System",
     category: "Data Engineering & Analytics",
     tools: ["VBA", "Excel Macro", "Power Pivot", "Relational Logic"],
-    image: "/images/projects/ERP sales system",
+    image: "/images/projects/ERP sales system.png",
     summary:
       "Developed a full-scale retail management system that automates sales workflows and visualizes business performance.",
     problem:
