@@ -11,10 +11,13 @@ export const metadata: Metadata = {
     template: "%s | Peter Obikpe"
   },
   description: "Junior Data Analyst and Educator specializing in Python, SQL, and Power BI. Bridging the gap between data and actionable insights.",
+  verification: {
+    google: "PydPWVkftU_q4Jhix2m_XE1OA5rqy1WseN4ujEiL_gk",
+  },
   openGraph: {
     title: "Peter Obikpe | Data Analyst",
     description: "Data solutions and analytical insights.",
-    url: "https://your-domain.com", // Replace with your actual domain later
+    url: "https://your-domain.com", // Update this when you have your final domain
     siteName: "Peter Obikpe Portfolio",
     locale: "en_US",
     type: "website",
@@ -32,9 +35,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      {/* Changing bg-[#0a0a0a] to a slightly cooler bg-[#030303].
-        Added 'selection' styling for a premium feel when highlighting text.
-      */}
       <body className="bg-[#030303] text-gray-300 min-h-screen flex flex-col antialiased selection:bg-[#5B8DEF]/30 selection:text-white overflow-x-hidden">
         
         {/* Ambient Overlay: Adds a subtle 'spotlight' effect to the center of the screen */}
