@@ -2,11 +2,12 @@
   "name": "peter-portfolio",
   "version": "0.1.0",
   "private": true,
-  "postbuild": "next-sitemap",
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "postbuild": "next-sitemap",
     "lint": "eslint"
   },
   "dependencies": {
