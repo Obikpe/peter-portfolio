@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import CodeBackground from "@/components/CodeBackground"
+// 1. Import the Analytics component
+import { Analytics } from "@vercel/analytics/react"
 
 // src/app/layout.tsx
 export const metadata: Metadata = {
@@ -53,6 +55,9 @@ export default function RootLayout({
         <footer className="relative z-20 border-t border-gray-900/50 bg-[#030303]/80 backdrop-blur-md">
           <Footer />
         </footer>
+
+        {/* 2. Add the Analytics component here */}
+        <Analytics />
       </body>
     </html>
   )
