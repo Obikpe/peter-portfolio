@@ -32,7 +32,7 @@ export default function AboutPage() {
   {/* --- NEW: Download CV Button --- */}
   <div className="pt-4">
     <a 
-      href="/Peter Obikpe CV.pdf" // Make sure your PDF is in the /public folder
+      href="/Peter_Obikpe_CV.pdf" // Make sure your PDF is in the /public folder
       download
       className="flex items-center justify-center gap-3 w-full py-4 bg-white text-black font-bold rounded-xl hover:bg-[#5B8DEF] hover:text-white transition-all group"
     >

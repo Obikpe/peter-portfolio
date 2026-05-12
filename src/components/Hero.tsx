@@ -17,8 +17,8 @@ export default function Hero() {
             Hi, I'm <span className="text-[#5B8DEF]">Peter</span>.
           </h1>
           <p className="text-gray-400 text-lg md:text-xl mb-8 leading-relaxed">
-            A Data Analyst dedicated to uncovering stories hidden in numbers. I build 
-            dashboards and ETL pipelines that turn raw data into strategic assets.
+            Data Analyst & Academic Researcher
+            Bridging Data Analysis with Evidence-Based Insights 
           </p>
           <div className="flex gap-4">
             <Link href="/projects" className="px-6 py-3 bg-[#5B8DEF] rounded-lg font-bold hover:bg-[#4A7CDD] transition-all">

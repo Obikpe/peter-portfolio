@@ -72,7 +72,28 @@ export const projects: Project[] = [
     status: "published"
   },
 
-  
+  {
+    slug: "book-catalogue-web-scraper",
+    title: "Book Catalogue Web Scraper",
+    category: "Web Scraping & Data Collection",
+    tools: ["Python", "BeautifulSoup", "Requests", "CSV"],
+    image: "/images/projects/book-catalogue-scraper.png",
+    github: "https://github.com/Obikpe/book-catalogue-scraper",
+
+    summary:
+      "Built a fully automated web scraper that extracts a complete 1,000-book catalogue across 50 paginated pages, capturing title, price, and availability for every record in seconds.",
+
+    problem:
+      "Manually collecting product data from multi-page e-commerce catalogues is slow, error-prone, and impossible to scale. A programmatic solution was needed to extract structured data reliably and repeatedly without manual effort.",
+
+    approach:
+      "Used Requests to fetch each page and BeautifulSoup to parse HTML, targeting CSS selectors to extract structured data from each book element. Engineered a pagination loop that automatically detects and follows 'next page' links, constructing the correct URL for each subsequent page and stopping cleanly when the final page is reached. Added HTTP status validation to handle failed requests gracefully. Output was saved as a UTF-8 encoded CSV file with headers, ready for downstream analysis.",
+
+    impact:
+      "Successfully extracted all 1,000 books across 50 pages in a single automated run — a process that would take hours manually completed in seconds. The resulting dataset spanning a price range of £10.00 to £59.99 (average £35.07) is clean, structured, and immediately ready for analysis or reporting.",
+
+    status: "published"
+},
 
   /*
   {
