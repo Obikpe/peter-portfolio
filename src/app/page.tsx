@@ -56,45 +56,17 @@ export default function Home() {
           {/* ================= SKILLS ================= */}
             <section className="py-24 border-t border-gray-900/50">
 
-              <div className="flex items-center gap-4 mb-12">
-
+              {/*<div className="flex items-center gap-4 mb-12">*/}
+              <div className = "mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
                   Technical Skills
                 </h2>
-
+                
                 <div className="h-[1px] flex-1 bg-gradient-to-r from-gray-800 to-transparent" />
-
               </div>
+              
 
               <Skills />
-
-            </section>
-
-            {/* ================= DATA VISUALIZATION ================= */}
-            <section className="py-24 border-t border-gray-900/50">
-
-              <div className="flex items-end justify-between mb-12">
-
-                <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
-                    Data Insights
-                  </h2>
-
-                  <p className="text-[#5B8DEF] font-mono text-[10px] uppercase tracking-[0.3em] mt-3 font-bold">
-                    Analytical Visualization
-                  </p>
-                </div>
-
-                <div className="hidden md:flex items-center gap-2 text-[10px] uppercase tracking-[0.3em] font-mono text-gray-600">
-                  <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                  Live Metrics
-                </div>
-
-              </div>
-
-              <div className="bg-[#080808]/50 backdrop-blur-sm border border-gray-800/50 rounded-3xl p-8 md:p-10 shadow-[0_0_60px_rgba(0,0,0,0.25)]">
-                <DataVisualization />
-              </div>
 
             </section>
             {/* ================= PLATFORM STATS ================= */}
