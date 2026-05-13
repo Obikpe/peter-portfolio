@@ -53,6 +53,22 @@ export default function Home() {
         <SectionWrapper>
 
           <div className="flex flex-col">
+          {/* ================= SKILLS ================= */}
+            <section className="py-24 border-t border-gray-900/50">
+
+              <div className="flex items-center gap-4 mb-12">
+
+                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
+                  Technical Skills
+                </h2>
+
+                <div className="h-[1px] flex-1 bg-gradient-to-r from-gray-800 to-transparent" />
+
+              </div>
+
+              <Skills />
+
+            </section>
 
             {/* ================= DATA VISUALIZATION ================= */}
             <section className="py-24 border-t border-gray-900/50">
@@ -153,22 +169,7 @@ export default function Home() {
 
             </section>
 
-            {/* ================= SKILLS ================= */}
-            <section className="py-24 border-t border-gray-900/50">
-
-              <div className="flex items-center gap-4 mb-12">
-
-                <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
-                  Technical Skills
-                </h2>
-
-                <div className="h-[1px] flex-1 bg-gradient-to-r from-gray-800 to-transparent" />
-
-              </div>
-
-              <Skills />
-
-            </section>
+            
 
 
             
